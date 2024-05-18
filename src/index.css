@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/Switzer_Complete/Fonts/WEB/fonts/Switzer-Light.woff2")
+      format("woff2"),
+    url("./assets/Switzer_Complete/Fonts/WEB/fonts/Switzer-Light.woff")
+      format("woff");
+  font-weight: lighter; /* Specify lighter as the font weight */
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Switzer", sans-serif;
+}
+
+/* :root {
+  --color-primary: #e3e6f3;
+  --box-shadow-primary: 0 5px 15px rgba(0, 0, 0, 0.06);
+  --color-secondary: #088178;
+  --color-secondary-hover: #02b8ab;
+} */
+
+h1 {
+  color: #202229;
+  font-family: "Switzer";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  color: #202229;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  padding: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #000;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+
+#siteContainer {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
